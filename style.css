@@ -77,3 +77,64 @@ background: #2E80CE;
 .action__login{
     margin-right: 7px;
 }
+/* =================================HERO==================================== */
+.hero{
+    display: flex;
+    padding-top: 76px;
+    align-items: center;
+}
+.hero__content{
+    width: 44%;
+}
+.hero__media{
+    flex: 1;
+}
+.hero__heading{
+    color: #FFF;
+font-size: 7rem;
+font-style: normal;
+font-weight: 600;
+line-height: 8rem;
+letter-spacing: -1.4px;
+}
+.hero__desc{
+   margin-top: 22px;
+    color: #C9D2DA;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 300;
+line-height: 3rem;
+}
+.hero__row{
+    align-items: center;
+    display: flex;
+    column-gap: 38px;
+    margin-top: 38px;
+}
+.hero__phone{
+    color: #FFF;
+text-align: center;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3rem,; /* 166.667% */
+}
+.hero__img{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+     object-fit: cover;
+}
+.hero__img.hero__img--large{
+    margin-right: -6px;
+    z-index: 1;
+    width: 330px;
+height: 540px;
+border-radius: 6px;
+
+}
+.hero__img.hero__img--small{
+    width: 210px;
+height: 410px;
+border-radius: 6px;
+}
